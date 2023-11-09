@@ -1,0 +1,61 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/kraft/ros2_ws/install/rosbot_hardware_interfaces/include/**",
+        "/home/kraft/ros2_ws/install/mecanum_drive_controller/include/**",
+        "/home/kraft/reachy_ws/install/zuuu_interfaces/include/**",
+        "/home/kraft/reachy_ws/install/reachy_msgs/include/**",
+        "/home/kraft/reachy_ws/install/pid_command_controller/include/**",
+        "/home/kraft/reachy_ws/install/neck_system_hwi/include/**",
+        "/home/kraft/reachy_ws/install/head_system_hwi/include/**",
+        "/home/kraft/reachy_ws/install/arm_system_hwi/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/kraft/ros2_ws/src/gazebosim/gz_ros2_control/ign_ros2_control/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/control_toolbox/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/gz_ros2_control/ign_ros2_control/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/kinematics_interface/kinematics_interface/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/kinematics_interface/kinematics_interface_kdl/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/realtime_tools/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_control/controller_interface/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_control/controller_manager/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_control/hardware_interface/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_control/joint_limits/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_control/ros2_control_test_assets/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_control/transmission_interface/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_controllers/ackermann_steering_controller/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_controllers/admittance_controller/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_controllers/diff_drive_controller/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_controllers/effort_controllers/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_controllers/force_torque_sensor_broadcaster/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_controllers/forward_command_controller/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_controllers/gripper_controllers/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_controllers/imu_sensor_broadcaster/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_controllers/joint_state_broadcaster/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_controllers/position_controllers/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_controllers/range_sensor_broadcaster/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_controllers/steering_controllers_library/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_controllers/tricycle_steering_controller/include/**",
+        "/home/kraft/ros2_ws/src/ros-controls/ros2_controllers/velocity_controllers/include/**",
+        "/home/kraft/ros2_ws/src/rosbot_controllers/mecanum_drive_controller/include/**",
+        "/home/kraft/ros2_ws/src/rosbot_hardware_interfaces/include/**",
+        "/home/kraft/ros2_ws/src/rplidar_ros/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

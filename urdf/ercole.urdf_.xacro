@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ercole">
+
+
+    <xacro:arg name="prefix" default=""/>
+
+    <xacro:arg name="model" default=""/>
+
+    <xacro:arg name="use_gazebo" default="true"/>
+    <xacro:arg name="use_fake_components" default="true"/>
+    <xacro:arg name="use_fixed_wheels" default="true"/>
+    <xacro:arg name="use_ros_control" default="true"/>
+
+
+    <xacro:include filename="common_properties.xacro" />
+    <xacro:include filename="mobile_base.xacro" />
+    <xacro:include filename="lidar.xacro" />
+
+    <xacro:include filename="ercole.gazebo.xacro" />
+
+    <!-- Import Ercole ros2_control description  -->
+    <xacro:include filename="ercole.ros2_control_.xacro" />
+
+
+    <xacro:ercole
+        model="$(arg model)" prefix="$(arg prefix)">
+    </xacro:ercole> 
+
+    <xacro:if value="$(arg use_gazebo)">
+        <xacro:ercole_gazebo model="$(arg model)" prefix="$(arg prefix)" />
+    </xacro:if>
+
+    <xacro:if value="$(arg use_ros_control)">
+        <xacro:ercole_ros2_control model="$(arg model)" prefix="$(arg prefix)"/>
+    </xacro:if> 
+
+       
+</robot>
