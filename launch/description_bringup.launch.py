@@ -21,7 +21,7 @@ def generate_launch_description():
     pkg_share = launch_ros.substitutions.FindPackageShare(
         package='ercole_description').find('ercole_description')
     default_model_path = os.path.join(
-        pkg_share, 'urdf/ercole.urdf_.xacro')
+        pkg_share, 'urdf/ercole_rover.urdf.xacro')
 
     # Paths to the robot description and its controllers
     robot_description_content = Command(
@@ -30,7 +30,7 @@ def generate_launch_description():
             ' ',
             PathJoinSubstitution(
                 [FindPackageShare('ercole_description'),
-                 'urdf', 'ercole.urdf_.xacro']
+                 'urdf', 'ercole_rover.urdf.xacro']
             ),
             ' ',
             'use_gazebo:=false',

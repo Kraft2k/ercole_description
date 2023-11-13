@@ -1,9 +1,6 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
-    
-    <xacro:macro name="ercole_gazebo" params="model prefix">  
-        
-        
+
         <gazebo reference="base_link">
             <material>Gazebo/Blue</material>
         </gazebo>
@@ -45,8 +42,6 @@
 
             </plugin>
         </gazebo>
-
-     </xacro:macro>
         
 
 </robot>

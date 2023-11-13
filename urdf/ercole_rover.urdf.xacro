@@ -19,12 +19,12 @@
     <xacro:include filename="ercole.gazebo.xacro" />
 
     <!-- Import Ercole ros2_control description  -->
-    <xacro:include filename="ercole.ros2_control_.xacro" />
+    <xacro:include filename="ercole.ros2_control.xacro" />
 
 
-    <xacro:ercole
+    <!-- <xacro:ercole
         model="$(arg model)" prefix="$(arg prefix)">
-    </xacro:ercole> 
+    </xacro:ercole>  -->
 
     <xacro:if value="$(arg use_gazebo)">
         <xacro:ercole_gazebo model="$(arg model)" prefix="$(arg prefix)" />
