@@ -6,7 +6,6 @@
             <!-- <hardware>
                 <plugin>fake_components/GenericSystem</plugin>
             </hardware> -->
-            
             <joint name="base_rl_wheel_joint">
                 <command_interface name="velocity">
                     <param name="min">-10</param>
