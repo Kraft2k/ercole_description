@@ -3,9 +3,9 @@
 
     <xacro:unless value="$(arg sim_mode)">
         <ros2_control name="RealRobot" type="system">
-            <!-- <hardware>
+            <hardware>
                 <plugin>fake_components/GenericSystem</plugin>
-            </hardware> -->
+            </hardware>
             <joint name="base_rl_wheel_joint">
                 <command_interface name="velocity">
                     <param name="min">-10</param>

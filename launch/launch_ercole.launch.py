@@ -53,7 +53,7 @@ def generate_launch_description():
     controller_manager = Node(
         package="controller_manager",
         executable="ros2_control_node",
-        parameters=[{'robot_description': robot_description}, controller_params_file]
+        parameters=[{'~/robot_description': robot_description}, controller_params_file]
     )
 
     delayed_controller_manager = TimerAction(period=2.0, actions=[controller_manager])
@@ -109,6 +109,6 @@ def generate_launch_description():
         # joystick,
         twist_mux,
         delayed_controller_manager,
-        delayed_diff_drive_spawner,
+        # delayed_diff_drive_spawner,
         delayed_joint_broad_spawner
     ])
