@@ -70,7 +70,7 @@ ros2 launch zuuu_hal test_joystick.launch.py
 
 ros2 run zuuu_hal teleop_joy
 
-Turn off Lidar Safety Mode
+## Turn off Lidar Safety Mode
 
 ros2 service call /SetZuuuSafety zuuu_interfaces/srv/SetZuuuSafety "{safety_on: False}"
 
